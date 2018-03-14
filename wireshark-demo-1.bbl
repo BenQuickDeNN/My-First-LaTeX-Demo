@@ -1,0 +1,19 @@
+\begin{thebibliography}{1}
+
+\bibitem{TLS-1}
+李天目.
+\newblock Ssl/tls协议的安全分析与改进.
+\newblock {\em 信息网络安全}, 1:51--54, 2005.
+
+\bibitem{TLS-3}
+CSDN.
+\newblock { TLS握手协商流程解析}.
+\newblock \url{http://blog.csdn.net/phunxm/article/details/72853552}, 2017.
+\newblock [Online; accessed 14-Mar-2018].
+
+\bibitem{TLS-2}
+S~Turner.
+\newblock Transport layer security.
+\newblock {\em IEEE Internet Computing}, 18(6):60--63, 2014.
+
+\end{thebibliography}
