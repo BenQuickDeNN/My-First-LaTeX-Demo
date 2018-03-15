@@ -9,6 +9,6 @@ TLS全称“Transport Layer Security（安全传输层）”，用于在两个�
 	\label{fig1}
 \end{figure}
 \qquad
-在图 \ref{fig1} 中，左侧代表客户端，右侧代表服务端。当客户端向服务端发起握手时，客户端首先向服务端发送“ClientHello”字段，包含会话ID（Session ID）等信息；服务端收到“ClientHello”字段后，返回一个“ServerHello”字段，同样包含会话ID等信息；之后服务端和客户端之间会进行密钥交换，在结束握手前，服务器还向客户端发送更改密钥的信息。\\
+在图 \ref{fig1} 中，左侧代表客户端，右侧代表服务端。当客户端向服务端发起握手时，客户端首先向服务端发送“ClientHello”字段，包含会话ID（Session ID）等信息；服务端收到“ClientHello”字段后，返回一个“ServerHello”字段，同样包含会话ID等信息；之后服务端和客户端之间会进行密钥交换，在结束握手前，客户端和服务器还向依次向对方发送更改密钥的信息。\\
 \qquad
 但在实际的网络应用中，TLS协议的握手过程是否真的如图 \ref{fig1} 所示。本实验将通过Wireshark软件对西安交通大学学生版统一身份认证网关的登录过程进行抓包分析，以探究竟。\\
